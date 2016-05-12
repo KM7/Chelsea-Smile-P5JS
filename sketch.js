@@ -20,6 +20,7 @@ function setup() {
   capture.size(320, 240);
   capture.hide();
   buffer.push(get());
+  text("YO wait until the picture cover it all",0,height/2)
 }
 
 function draw() {
